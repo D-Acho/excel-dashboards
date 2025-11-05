@@ -40,7 +40,7 @@ Los datos fueron simulados y contenían inconsistencias y formatos mixtos. Se re
 
 Este proyecto fue desarrollado con base en documentos internos simulados, incluyendo boletines, correos y reportes de otras áreas, para contextualizar las necesidades del negocio.
 
-![Vista previa del dashboard](Selva Congo.png)
+![Vista previa del dashboard](Selva_Congo.png)
 ---
 
 ## 📄 Licencia
