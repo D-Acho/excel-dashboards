@@ -1,5 +1,7 @@
 # Dashboards en Excel
 
+This repository contains examples of Excel dashboards created for reporting and process analysis. All data is simulated. The documentation is in Spanish, but the structure and visuals are easy to follow. Tools used include Excel.
+
 Este repositorio presenta una colección de dashboards interactivos desarrollados en Excel como parte de ejercicios prácticos de análisis de datos. **Todas las situaciones descritas son simuladas** y fueron diseñadas con fines educativos y de desarrollo profesional. No representan experiencias laborales reales.
 Cada proyecto parte de un escenario específico y propone una solución visual que permite explorar la información de forma clara, funcional y adaptable a distintos perfiles de usuario.
 
