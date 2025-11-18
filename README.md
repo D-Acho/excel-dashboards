@@ -13,10 +13,56 @@ Cada proyecto parte de un escenario específico y propone una solución visual q
 ## ¿Qué encontrarás aquí?
 
 - Dashboards en español, creados a partir de ejercicios independientes.
-- Imágenes o Gifs que muestran la estructura y funcionalidad (incluyendo el efecto de los slicers).
+- Imágenes y vídeos que muestran la estructura y funcionalidad (incluyendo el efecto de los slicers).
 - Breves descripciones de cada proyecto, con enfoque en el análisis realizado.
 ---
 
+### Proyecto 3: Dashboard de Ventas y Comisiones – Ski Valle Silbador
+Este dashboard fue diseñado para reconstruir el sistema de reporteo de Ski Valle Silbador, un parque de ski canadiense perteneciente a la Red Heroic. El análisis permite recuperar visibilidad sobre ingresos, comisiones, comportamiento de visitantes y uso de lifts, tras un incidente interno que dañó la base de datos de la temporada 2018–2019.
+
+**Escenario simulado:**
+Como analista de datos recién contratado por Ski Valle Silbador, se me asignó la tarea de reconstruir la base de ventas y el sistema de reporteo, luego de que un ex-empleado eliminara registros clave. La gerencia necesitaba recuperar métricas operativas y comerciales para evaluar el desempeño de la temporada, incluyendo ingresos por tipo de pase, comisiones pagadas a otros parques de la Red Heroic, y comportamiento de los visitantes.
+
+**Descripción de los elementos evaluados:**
+*Tipos de pase:*
+- Pase por días: acceso limitado según la cantidad de días comprados.
+- Pase de temporada: acceso ilimitado durante toda la temporada de nieve.
+*Promociones aplicadas:*
+- Regalo de 1 o 2 días extra según duración de estancia (solo para pases por días).
+- Rentas gratis para paquetes comprados fuera de temporada.
+*Red Heroic:*
+- Visitantes con pase de otro parque de la red.
+- Se paga comisión al parque que vendió el pase original.
+*LIFTs:*
+- Registro de cada acceso a telesillas por esquiadores con pase de temporada.
+
+**Objetivo:**
+Diseñar una herramienta interactiva que permita visualizar ingresos, comisiones, comportamiento de visitantes y uso de lifts, integrando múltiples fuentes de datos y aplicando fórmulas para reconstruir métricas clave.
+
+**Elementos incluidos en el dashboard:**
+- Tarjeta con el monto total de ventas en dólares
+- Tarjeta con los días promedio de visita de quienes no tienen pase de temporada
+- Gráfica de visitantes por Modo de Compra (% del total)
+- Gráfica de visitantes por Parque Origen (% del total de Red Heroic)
+- Tarjeta con el porcentaje de ventas que provienen de compras mayores a $1,000
+- Tabla de ventas por Hotel (solo visitantes por paquete)
+- Tabla de comisiones por Parque Origen (solo Red Heroic)
+- Tarjeta con los días extra (regalo) que deben entregarse
+- Tarjeta con el costo de rentas gratis para paquetes fuera de temporada
+- Gráfica de viajes por LIFT por trimestre
+- Tarjeta con ganancias/pérdidas de visitantes con pase de temporada
+- Tabla de cantidad de lifts por día de la semana (solo el 33.33% que más esquía)
+*Segmentadores incluidos:*
+- Por Parque de Origen
+- Por Modo de Compra
+- Por días de visita
+
+**Tratamiento de datos:**
+Se integraron múltiples fuentes: base de ventas sin errores, tabla de comisiones incompleta, base de viajes en LIFT con errores, correos de hoteles y notas internas. Se aplicaron fórmulas para reconstruir comisiones, días extra, rentas gratis y márgenes de ganancia. Se corrigieron errores en la base de LIFTs y se normalizaron los nombres de hoteles y parques. El dashboard se diseñó para actualizarse dinámicamente con nuevos datos.
+
+![Vista previa del dashboard](Valle_Silbador.png)
+
+---
 ### Proyecto 2: Dashboard de Nómina – Gran Empresa de TI
 Este dashboard fue diseñado para evaluar dos escenarios salariales en una empresa global de TI, considerando restricciones legales mexicanas y prácticas internacionales. El análisis permite tomar decisiones informadas sobre aumentos y despidos, con visuales claros y segmentación dinámica.
 
